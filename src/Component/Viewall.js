@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from './Nav'
 
 const Viewall = () => {
     var viewall=[
@@ -605,7 +606,7 @@ const Viewall = () => {
       ]
   return (
     <div>
-    
+    <Nav/>
     <div class="container">
 <div class="row">
     <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -614,8 +615,11 @@ const Viewall = () => {
                 viewall.map((value,key)=>{
                     return <div class='col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4'>
                         <div class='card'>
-                            <img style={{width:250,height:250}} src={value.userId} class="card-image-top" alt=" " />
+                           
                             <div class="card-body">
+                            <h5 class="card-title">
+                                    userId:{value.userId}
+                                </h5>
                                 <h5 class="card-title">
                                     title:{value.title}
                                 </h5>
