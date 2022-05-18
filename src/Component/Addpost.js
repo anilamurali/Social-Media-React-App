@@ -1,8 +1,10 @@
 import React from 'react'
+import Nav from './Nav'
 
 const Addpost = () => {
   return (
     <div>
+        <Nav/>
         <div>
     <div class="container">
 <div class="row">
