@@ -614,7 +614,7 @@ const Viewall = () => {
                 viewall.map((value,key)=>{
                     return <div class='col col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 col-xxl-4'>
                         <div class='card'>
-                            <img style={{width:250,height:250}} src={value.userId} class="card-image-top" alt=" " />
+                           
                             <div class="card-body">
                                 <h5 class="card-title">
                                     title:{value.title}
